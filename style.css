@@ -1,0 +1,33 @@
+body {
+  background-color: goldenrod;
+}
+
+div {
+  width: 500;
+  height: 500;
+  background-color: aqua;
+  border-style: dashed;
+  padding: 2px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+#surfing {
+  width: 200;
+  height: 200;
+}
+
+.box {
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: purple;
+  grid-auto-rows: auto;
+}
+.box > * {
+  flex: 1 1 80px;
+}
